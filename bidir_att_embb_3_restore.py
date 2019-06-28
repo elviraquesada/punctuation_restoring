@@ -142,6 +142,8 @@ for seq_index in range(len(input_texts_test)):
     print('Expected sentence:', target_texts_test[seq_index])
     print('Decoded sentence:', decoded_sentence)
 
+#Para testear una frase en concreto
+"""
 a = datetime.datetime.now()
 decoded_sentence = decode_text(['Colabore con nosotros Usted mismo ha dicho que vamos a modificar su propuesta'])
 
@@ -150,3 +152,4 @@ print('Expected sentence:', 'Colabore con nosotros. Usted mismo ha dicho que vam
 b = datetime.datetime.now()
 c = b-a
 print('Decoded sentence:', decoded_sentence)
+"""
